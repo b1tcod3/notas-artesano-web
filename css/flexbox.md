@@ -11,8 +11,12 @@
 
 ## Ejes
 
-Flexbox Container
-: Es el elemento Padre
+## Principal (main axis)
+:El cual corre en la misma dirección en que se colocan los elementos flexibles
+
+## Transversal (cross axis)
+:El cual corre penpendicular  a los elementos flexibles
+
 
 ## Propiedades
 
@@ -25,10 +29,10 @@ Flexbox Container
 Flexbox Container
 : Es el elemento Padre
 
-Caja Flexible
+Caja Flexible (Elemento flexible)
 : Cada elemento hijo de un flexbox container 
 
-#Código
+# Código
 
 - crear un elemento flex
 
