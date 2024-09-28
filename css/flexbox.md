@@ -25,3 +25,16 @@ Flexbox Container
 Flexbox Container
 : Es el elemento Padre
 
+Caja Flexible
+: Cada elemento hijo de un flexbox container 
+
+#Código
+
+- crear un elemento flex
+
+```css
+section {
+  display: flex;
+}
+```
+
