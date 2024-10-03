@@ -20,14 +20,26 @@
 
 ## Propiedades
 
->flex-direction
-: define el eje principal y la dirección 
+>flex-direction (defecto: row)
+: define el eje principal y la dirección.
+
+>flex-wrap (defecto: nowrap)
+: Fluidez multilínea
+
+>flex-flow (defecto: nowrap)
+: Combina flex-direction y flex-wrap
+
+>align-items (defecto: stretch)
+: Controla dónde se ubican los elementos flexibles en el eje transversal
+
+>justify-content (defecto: flex-start)
+: Controla dónde se ubican los elementos flexibles sobre el eje principal
 
 
 ## Conceptos básicos
 
 Flexbox Container
-: Es el elemento Padre
+: Es el elemento Padre. Tiene la propiedad display: flex. 
 
 Caja Flexible (Elemento flexible)
 : Cada elemento hijo de un flexbox container 
